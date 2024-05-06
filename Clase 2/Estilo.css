@@ -1,0 +1,100 @@
+
+*{margin: 0;
+padding: 0;}
+
+
+    .Titulo{color: rgb(163, 60, 60);
+        background-color: rgba(10, 9, 9, 0.87);
+    font-family: "Jacquard 24", system-ui;
+    font-size: 4rem ;
+    text-align: center ;
+
+    }
+    
+    
+    .Encabezado{
+
+        background-image: url(./Imagenes/Estadio.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        padding: 3rem;
+
+
+    }
+    .MenuSuperior{
+        background-color: rgba(138, 137, 135, 0.24);
+        
+        padding: 15px 15px 15px 15px;
+        margin: auto;
+        list-style: none;
+        text-align: center;
+    }
+
+    .MenuSuperior li { display: inline;
+        padding: 2rem;
+    }
+
+    .MenuSuperior a {text-decoration:none;
+        color: antiquewhite;
+        font-weight: 700;
+        font-size: 1.2rem;
+
+    }
+    
+    .Link-abajo a{
+        color: aliceblue;
+        float: right;
+
+    }
+    
+    
+    .Navegador {
+        display: inline;
+        background-color: rgba(197, 192, 191, 0.377);
+     }
+    
+
+    
+    
+     .Parrafoinicial{color: rgb(148, 41, 27);}
+
+     .Parrafos{color: rgb(22, 21, 21);
+background-color: rgb(177, 174, 174);}
+
+     .BoxModel1{
+
+    padding: 10px;
+    margin: 10px;
+    border: solid;
+     }
+
+
+
+
+
+ 
+ 
+ 
+
+ 
+ 
+ Pagina de contenido de camisetas.
+
+
+
+
+.CamisetaDelCity{
+    background-color: rgb(64, 77, 119);
+    width: 100%;
+    height: 100%; }
+
+
+.TituloDeCamisetas{
+        color:darkblue;
+        text-align: center;
+        border: solid beige;
+        
+    }
+
+   
