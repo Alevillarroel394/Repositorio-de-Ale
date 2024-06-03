@@ -1,0 +1,77 @@
+
+/* Nosotros */
+
+
+.gradientes{
+
+    height: 20vh;
+    /*background-color: brown;*/
+background-image: linear-gradient(to left, rgba(0, 0, 255, 0.76), rgba(255, 255, 0, 0.637));
+
+}
+
+.box_ejemplo{
+    margin: 2rem;
+    padding: 2rem;
+    height: 10rem;
+    width: 10rem;
+    background-color: red;
+    transform:translate(90deg)
+
+}
+
+.ejemplo div{
+ width: 100px;
+ height: 100px;
+ transition: height 1s, width 1s;
+ 
+}
+
+
+.ejemplo div:hover {
+
+    height: 200px;
+    width: 150px;
+    background-color: rgba(25, 22, 199, 0.767);
+}
+
+.rojo {
+    background-color: brown;
+}
+
+
+.ejemplo2{
+
+    padding-top: 2rem ;
+    padding-bottom: 2rem;
+}
+
+.input{
+padding-top: 2rem;
+margin: 2rem;
+    width: 10rem;
+    font-size: 2rem;
+}
+
+.ejemplo3{
+    padding: 4rem;
+    margin: 2rem;
+    width: 10rem;
+    height: 10rem;
+    background-color: pink;
+    animation-name: fulanito;
+    animation-duration: 2s;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+   
+}
+
+@keyframes fulanito {
+
+    0%{width: 100px;}
+    25%{width: 300px;}
+    50%{width: 200px;}
+    75%{width: 300px;}
+    100%{width: 100px;
+    background-color: green;}
+}

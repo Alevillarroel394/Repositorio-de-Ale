@@ -1,10 +1,64 @@
-.boxModel{ 
+/*
 
-    background-color: rgb(127, 127, 194);
-    display: inline-block;
-    padding: 30px 20px 30px 20px;
-    margin: 10px 100px 10px 100px;
-    overflow: auto;
+.grid-container{
+    display: grid;
+    background-color: rgba(42, 18, 182, 0.63);
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 100);
+    gap: 2rem,;
+    padding: 2rem;
+}
 
-    border: solid;
+oducto { 
+    color: rgb(0, 0, 0);
+    background-color: blanchedalmond;
+   padding: 2rem;
+   border: solid 1px rgb(82, 80, 78);
+   text-align: center;
+}
+*/
+
+
+#grilla{
+    display:grid;
+    grid-template-areas: 
+    "nav header header"
+    "nav producto aside"
+    "nav servicio aside"
+    "nav footer footer";
+
+
+    grid-template-rows: 100px 1fr 1fr 75px;
+    grid-template-columns: 20% auto 15%;
+    row-gap: 10px;
+    column-gap: 20px;
+    height: 100vh;
+    
+}
+
+.header{
+    background-color: rgba(83, 43, 226, 0.623);
+    grid-area: header;
+}
+footer{
+    background-color: rgba(0, 0, 255, 0.603);
+    grid-area: footer;
+}
+
+.producto{
+    background-color: rgba(165, 42, 42, 0.534);
+    grid-area: producto;
+}
+.servicio{
+    background-color: rgba(255, 140, 0, 0.671);
+    grid-area: servicio;
+}
+.nav {
+    background-color: rgba(0, 0, 0, 0.507);
+    grid-area: nav;
+}
+
+.aside {
+    background-color: rgba(220, 20, 60, 0.61);
+    grid-area: aside;
 }

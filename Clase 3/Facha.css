@@ -1,0 +1,35 @@
+
+.contenedor_padre{
+
+    background-color: bisque;
+    display: flex;
+    justify-content: space-evenly;
+    }
+
+.caja{
+    height: 150px;
+    width: 150px;
+}
+
+.rojo{
+    background-color: red;
+}
+
+
+.azul{
+    background-color: rgb(42, 9, 163);
+}
+
+.rosa{
+    background-color: rgb(214, 12, 170);
+}
+
+.naranja{
+    background-color: rgb(248, 103, 7);
+}
+
+.amarillo{
+    background-color: rgb(248, 244, 5);
+}
+
+
